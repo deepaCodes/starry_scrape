@@ -1,0 +1,30 @@
+{
+  "web_url": "https://starry.com/#check-availability",
+  "chromedriver_path": "E:/chromedriver_win32/chromedriver.exe",
+  "headless_mode": "Y",
+  "seconds_to_wait_between_scrape": 5,
+  "input_address_text_file": "C:/Users/Ramesh-Deepu/OneDrive/Upwork/starry_scrape/scrapper/address_list.txt",
+  "output_csv_file_location": "C:/Users/Ramesh-Deepu/OneDrive/Upwork/starry_scrape/csv/Starry_Scrape_Results.csv",
+  "output_text_file_path": "C:/Users/Ramesh-Deepu/OneDrive/Upwork/starry_scrape/files",
+  "retry_count_when_failed": 1,
+  "label_mapping": [
+    {
+      "text": "Great news",
+      "label": "serviceable"
+    },
+    {
+      "text": "Your building can get Starry",
+      "label": "petition"
+    },
+    {
+      "text": "We’re on our way!",
+      "label": "waitlist"
+    },
+    {
+      "text": "Enter your info below",
+      "label": "noservice"
+    }
+  ]
+}
+
+
